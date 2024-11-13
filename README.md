@@ -1,8 +1,8 @@
 # RR-WhatsApp-API
 
-## Este é um fork da api do Rudimar Remontti que fez um belissimo trabalho na criação dessa api e eu apenas fiz minha atualizações que estão comentadas dentro dos arquivos.
+### Este é um fork da api do Rudimar Remontti que fez um belissimo trabalho na criação dessa api e eu apenas fiz minha atualizações que estão comentadas dentro dos arquivos.
 
-#### Acesso --> https://blog.remontti.com.br/8109
+#### Acesse --> https://blog.remontti.com.br/8109
 
 Este repositório contém uma API simples para enviar mensagens do WhatsApp utilizando o `whatsapp-web.js`. A API possibilita o envio de mensagens com ou sem anexos, tanto para números individuais quanto para grupos. A aplicação pode ser utilizada via interface web ou diretamente através de endpoints REST.
 
