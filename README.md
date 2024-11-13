@@ -63,7 +63,8 @@ apt install -y \
   curl wget nano vim git nodejs npm psmisc \
   ca-certificates fonts-liberation libappindicator3-1 \
   libatk-bridge2.0-0 libcups2 libdrm-dev libgbm-dev libgtk-3-0 \
-  libnspr4 libnss3 libxss1 lsb-release xdg-utils
+  libnspr4 libnss3 libxss1 lsb-release xdg-utils libasound2 libdrm2 \
+  libxcomposite1 libxrandr2 libgbm1
 ```
 
 ### 3. Clonar o Repositório
@@ -73,7 +74,7 @@ Crie um usuário para a aplicação e clone este repositório:
 ```bash
 adduser --home /opt/RR-WhatsApp-API rr-whatsapp-api
 su - rr-whatsapp-api
-git clone https://github.com/remontti/RR-WhatsApp-API.git
+git clone https://github.com/joandson19/RR-WhatsApp-API.git
 mv /opt/RR-WhatsApp-API/RR-WhatsApp-API/* /opt/RR-WhatsApp-API/
 rm -rf /opt/RR-WhatsApp-API/RR-WhatsApp-API
 ```
@@ -350,11 +351,6 @@ Para executar a aplicação como um serviço no Debian 12, siga os passos abaixo
 - **Endpoint via GET:** O envio de mensagens via URL (método GET) não é seguro, pois parâmetros são expostos na URL.
 
 ---
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. (Se vou responder ou modificar a resposta é provavelmente não.)
-A programação é credito do Chat GTP, pois eu não sei node! Mas nem por isso sou c*zão, de não compartilhar! 
 
 ## Bônus Zabbix 
 Deixei o arquivo Zabbix-Midia-Whatsapp-RR.yaml para que você possa usar para disparo de aviso no Zabbix, só importar e ajustar. 
