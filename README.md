@@ -1,6 +1,6 @@
 # RR-WhatsApp-API
 
-### Este é um fork da api do Rudimar Remontti que fez um belissimo trabalho na criação dessa api e eu apenas fiz minha atualizações que estão comentadas dentro dos arquivos.
+### Este é um fork da api do Rudimar Remontti que fez um belissimo trabalho na criação dessa api e eu apenas fiz algumas atualizações que estão comentadas dentro dos arquivos.
 
 #### Acesse --> https://blog.remontti.com.br/8109
 
